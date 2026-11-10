@@ -1,9 +1,9 @@
 cask "forkly" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.52.0"
-  sha256 arm:   "c44c007b1732084083fc5bad0e64cfd0bf0f73ef57e2704e3c324a624e576da2",
-         intel: "9b3c71756ab453755bf38e62b122cdeab5fb6d950d4421a56dd47c028ab25ca9"
+  version "0.52.1"
+  sha256 arm:   "379507eafc05666d032596e2954dcc37d011fbbb7dade36115447f00850975da",
+         intel: "59052891d0d81d9716eceac3583a68a4a3cd8ddb28c8009074d79f1c5b90f5e4"
 
   url "https://github.com/henrique-cabral-dev/forkly-updates/releases/download/v#{version}/forkly-#{version}-#{arch}.dmg"
   name "Forkly"
